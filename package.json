@@ -1,0 +1,20 @@
+{
+  "name": "winston-ioredis-transport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fsalehpour/winston-ioredis-transport.git"
+  },
+  "keywords": [],
+  "author": "Faramarz Salehpour <subs@marz.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fsalehpour/winston-ioredis-transport/issues"
+  },
+  "homepage": "https://github.com/fsalehpour/winston-ioredis-transport#readme"
+}
