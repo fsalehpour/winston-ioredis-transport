@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/fsalehpour/winston-ioredis-transport/issues"
   },
-  "homepage": "https://github.com/fsalehpour/winston-ioredis-transport#readme"
+  "homepage": "https://github.com/fsalehpour/winston-ioredis-transport#readme",
+  "devDependencies": {
+    "cucumber": "^6.0.5"
+  }
 }
