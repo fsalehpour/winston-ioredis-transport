@@ -1,5 +1,6 @@
 import TransportStream from "winston-transport";
 import IORedis from "ioredis";
+import { MESSAGE } from 'triple-beam';
 import {IORedisTransportOptions} from "./IORedisTransportOptions";
 
 export class WinstonIORedisTransport extends TransportStream {
@@ -14,7 +15,7 @@ export class WinstonIORedisTransport extends TransportStream {
 
     log(info: any, callback: () => void) {
         setImmediate(() => this.emit('logged', info));
-        this.redis.publish(this.channel, info.message);
+        this.redis.publish(this.channel, `${info[MESSAGE]}`);
         callback();
     }
 }
