@@ -22,5 +22,5 @@ When('message {string} is logged', function (message: string) {
 
 Then('{string} is published on channel {string}', function (message: string, channel: string) {
     sinon.assert.calledOnce(<any> redis.publish);
-    sinon.assert.calledWith(<any> redis.publish, channel, message);
+    sinon.assert.calledWith(<any> redis.publish, channel, JSON.stringify({message, level: "info"}));
 });
