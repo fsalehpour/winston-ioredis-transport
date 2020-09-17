@@ -1,0 +1,1 @@
+export {WinstonIORedisTransport} from "./WinstonIORedisTransport";
