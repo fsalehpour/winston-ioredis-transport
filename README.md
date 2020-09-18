@@ -51,4 +51,8 @@ logger.info('my new message', {abc: 123, ts: new Date(), colour: "purple"});
 
 The tests are written in [Gherkin](https://cucumber.io/docs/gherkin/reference/) with [cucumber](https://cucumber.io/) and [Sinon.js](https://sinonjs.org/)
 
+```
+npm test
+```
+
 **Author:** [Faramarz Salehpour](https://github.com/fsalehpour)
