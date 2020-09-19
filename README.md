@@ -1,6 +1,7 @@
 # winston-ioredis-transport
 
-[![NPM](https://nodei.co/npm/winston-ioredis-transport.png?compact=true)](https://nodei.co/npm/winston-ioredis-transport/)
+[![NPM](https://nodei.co/npm/winston-ioredis-transport.png?compact=true)](https://nodei.co/npm/winston-ioredis-transport/)  
+
 [![GitHub issues](https://img.shields.io/github/issues/fsalehpour/winston-ioredis-transport)](https://github.com/fsalehpour/winston-ioredis-transport/issues)
 [![GitHub forks](https://img.shields.io/github/forks/fsalehpour/winston-ioredis-transport)](https://github.com/fsalehpour/winston-ioredis-transport/network)
 [![GitHub stars](https://img.shields.io/github/stars/fsalehpour/winston-ioredis-transport)](https://github.com/fsalehpour/winston-ioredis-transport/stargazers)
