@@ -10,7 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/fsalehpour/winston-ioredis-transport.git"
   },
-  "keywords": [],
+  "keywords": [
+    "logging",
+    "sysadmin",
+    "tools",
+    "winston",
+    "redis",
+    "ioredis"
+  ],
   "author": "Faramarz Salehpour <subs@marz.co>",
   "license": "MIT",
   "bugs": {
